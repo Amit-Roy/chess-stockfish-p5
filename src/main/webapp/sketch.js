@@ -1,5 +1,5 @@
 var board, game;
-var engine = STOCKFISH();
+//var engine = STOCKFISH();
 
 var init = function () {
     var cfg = {
