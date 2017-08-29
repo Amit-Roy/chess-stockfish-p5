@@ -1,0 +1,31 @@
+{
+  "name": "chess-stockfish-p5",
+  "version": "1.0.0",
+  "description": "Static page for a stockfish backed simple chess client ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit-Roy/chess-stockfish-p5.git"
+  },
+  "keywords": [
+    "chess",
+    "stockfish",
+    "chessboard",
+    "chess.js",
+    "chessboard.js",
+    "stockfish.js"
+  ],
+  "author": "Amit-Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amit-Roy/chess-stockfish-p5/issues"
+  },
+  "homepage": "https://github.com/Amit-Roy/chess-stockfish-p5#readme",
+  "dependencies": {
+    "save": "^2.3.1",
+    "stockfish": "^6.0.5"
+  }
+}

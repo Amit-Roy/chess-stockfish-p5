@@ -1,0 +1,19 @@
+.gamearea {
+    display: flex;
+}
+
+.chessboard {
+    position: relative;
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.scoreboard {
+    display: flex;
+    border: 5px solid #404040;
+    width: 20%;
+    margin-top: 5%;
+    flex-direction: column;
+}

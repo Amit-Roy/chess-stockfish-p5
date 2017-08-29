@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess, powered by Stockfish and p5</title>
+    <link rel="stylesheet" href="libraries/css/chessboard-0.3.0.css"/>
+    <link rel="stylesheet" href="libraries/css/common.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+    <script src="libraries/js/chessboard.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.js"></script>
+    <script src="node_modules/stockfish/src/stockfish.js"></script>
+
+</head>
+<body>
+<div class="gamearea">
+    <div id="board" class="chessboard"></div>
+    <div id="score" class="scoreboard">
+        <div id="head">
+            <span>Sl. No.</span> <span>White</span> <span>Black</span>
+        </div>
+        <div id="body">
+            <div id="row">
+                <!--<div id="slno"></div>
+                <div id="whiteMove"></div>
+                <div id="blackMove"></div>-->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="src/main/webapp/sketch.js"></script>
+</html>
